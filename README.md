@@ -84,7 +84,7 @@ The application's UI is styled using Bootstrap classes for a clean and responsiv
 ## 🚀 Getting Started
 
  To get started with this project, follow these steps:<br>
-1. Clone the repository to your local machine using `git clone <repository URL>`.
+1. Clone the repository to your local machine using `git clone https://github.com/uniqueolgacodes/todo-app.git`.
 2. Install the dependencies by running `npm install` or `yarn install` in the project directory.
 3. Start the development server by running `npm start` or `yarn start`. This will launch a development server at <http://localhost:3000/>.
 4. Open the project in your preferred code editor and start exploring the codebase.
