@@ -6,8 +6,8 @@
   <p align="center"><img src="https://img.shields.io/badge/-React-004E89?logo=React&style=flat" alt='React\' />
 <img src="https://via.placeholder.com/1/0000/00000000" alt="spacer" /><img src="https://img.shields.io/badge/-ReactDOM-004E89?logo=ReactDOM&style=flat" alt='ReactDOM\' />
 <img src="https://via.placeholder.com/1/0000/00000000" alt="spacer" /><img src="https://img.shields.io/badge/-Bootstrap-004E89?logo=Bootstrap&style=flat" alt='Bootstrap\' />
-<img src="https://via.placeholder.com/1/0000/00000000" alt="spacer" /><img src="https://img.shields.io/badge/-Jest-004E89?logo=Jest&style=flat" alt='Jest\' />
-<img src="https://via.placeholder.com/1/0000/00000000" alt="spacer" /><img src="https://img.shields.io/badge/-Enzyme-004E89?logo=Enzyme&style=flat" alt='Enzyme\' />
+<img src="https://via.placeholder.com/1/0000/00000000" alt="spacer" />
+<img src="https://via.placeholder.com/1/0000/00000000" alt="spacer" />
 <img src="https://via.placeholder.com/1/0000/00000000" alt="spacer" /><img src="https://img.shields.io/badge/-ESLint-004E89?logo=ESLint&style=flat" alt='ESLint"' />
 <img src="https://via.placeholder.com/1/0000/00000000" alt="spacer" />
   </p>
