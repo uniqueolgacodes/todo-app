@@ -2,7 +2,7 @@
   <div align="center">
   <h1 align="center">Todo App</h1>
   <h3>Codebase for the Todo App platform</h3>
-  <h3>◦ Developed with the software and tools below.</h3>
+  <h3>◦ Developed by Olgacodes, in collaboration with Abidoye Emmanuel with the software and tools below.</h3>
   <p align="center"><img src="https://img.shields.io/badge/-React-004E89?logo=React&style=flat" alt='React\' />
 <img src="https://via.placeholder.com/1/0000/00000000" alt="spacer" /><img src="https://img.shields.io/badge/-ReactDOM-004E89?logo=ReactDOM&style=flat" alt='ReactDOM\' />
 <img src="https://via.placeholder.com/1/0000/00000000" alt="spacer" /><img src="https://img.shields.io/badge/-Bootstrap-004E89?logo=Bootstrap&style=flat" alt='Bootstrap\' />
