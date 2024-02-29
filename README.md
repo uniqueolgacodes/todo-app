@@ -1,70 +1,99 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <div align="center">
+  <h1 align="center">Todo App</h1>
+  <h3>Codebase for the Todo App platform</h3>
+  <h3>◦ Developed with the software and tools below.</h3>
+  <p align="center"><img src="https://img.shields.io/badge/-React-004E89?logo=React&style=flat" alt='React\' />
+<img src="https://via.placeholder.com/1/0000/00000000" alt="spacer" /><img src="https://img.shields.io/badge/-ReactDOM-004E89?logo=ReactDOM&style=flat" alt='ReactDOM\' />
+<img src="https://via.placeholder.com/1/0000/00000000" alt="spacer" /><img src="https://img.shields.io/badge/-Bootstrap-004E89?logo=Bootstrap&style=flat" alt='Bootstrap\' />
+<img src="https://via.placeholder.com/1/0000/00000000" alt="spacer" /><img src="https://img.shields.io/badge/-Jest-004E89?logo=Jest&style=flat" alt='Jest\' />
+<img src="https://via.placeholder.com/1/0000/00000000" alt="spacer" /><img src="https://img.shields.io/badge/-Enzyme-004E89?logo=Enzyme&style=flat" alt='Enzyme\' />
+<img src="https://via.placeholder.com/1/0000/00000000" alt="spacer" /><img src="https://img.shields.io/badge/-ESLint-004E89?logo=ESLint&style=flat" alt='ESLint"' />
+<img src="https://via.placeholder.com/1/0000/00000000" alt="spacer" />
+  </p>
+  </div>
+  
+  ---
+  ## 📚 Table of Contents
+  - [📚 Table of Contents](#-table-of-contents)
+  - [🔍 Overview](#-overview)
+  - [🌟 Features](#-features)
+  - [📁 Repository Structure](#-repository-structure)
+  - [💻 Code Summary](#-code-summary)
+  - [🚀 Getting Started](#-getting-started)
+  
+  ---
+  
+  
+  ## 🔍 Overview
 
-## Available Scripts
+The provided code is a React.js application that implements a To-Do List. It imports necessary components and styles from React, Bootstrap, and React Bootstrap libraries. The main component, App, manages the state of the application, including user input and the list of to-do items.
 
-In the project directory, you can run:
+The App class includes methods to update, add, delete, and edit to-do list items. These methods handle user interactions and update the component's state accordingly. The UI is rendered using JSX, including a title, an input field for adding new items, and a list of existing items with options to delete or edit them.
 
-### `npm start`
+The application's UI is styled using Bootstrap classes for a clean and responsive layout. At the end of the component, there's a mention that it's a demo for a hackathon. Comments throughout the code document the development process and mention the developers' names.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ This is a Node.js project with a React frontend. The project uses Git for version control and has a LICENSE file. The package.json and package-lock.json files are used to manage dependencies and ensure reproducibility of the project. The README.md and README.old.md files provide documentation for the project. The src directory contains the source code for the frontend and backend, including the App.js, index.js, logo.svg, reportWebVitals.js, and setupTests.js files. The .gitattributes and .gitignore files are used to manage Git attributes and ignore certain files in the project.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🌟 Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ Node.js, React, backend API, Git, LICENSE, package.json, package-lock.json, README.md, README.old.md, src, App.css, App.js, App.test.js, index.css, index.js, logo.svg, reportWebVitals.js, setupTests.js, .gitattributes, .gitignore
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📁 Repository Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```sh
+├── .gitattributes
+├── .gitignore
+├── LICENSE
+├── package-lock.json
+├── package.json
+├── README.md
+├── README.old.md
+└── src
+    ├── App.css
+    ├── App.js
+    ├── App.test.js
+    ├── index.css
+    ├── index.js
+    ├── logo.svg
+    ├── reportWebVitals.js
+    └── setupTests.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 💻 Code Summary
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<details><summary>\src</summary>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+| File | Summary |
+| ---- | ------- |
+| App.js |  The code is a React.js application that allows users to add, edit, and delete items from a list using a simple text input field and two buttons. |
+| App.test.js |  The code tests the React component App by rendering it and verifying that the Learn React link is present in the document. |
+| index.js |  The code creates a React application using the `ReactDOM.createRoot` method and renders the `App` component in the root element with strict mode enabled, and also logs the web vitals using the `reportWebVitals` function. |
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+</details>
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ To get started with this project, follow these steps:<br>
+1. Clone the repository to your local machine using `git clone <repository URL>`.
+2. Install the dependencies by running `npm install` or `yarn install` in the project directory.
+3. Start the development server by running `npm start` or `yarn start`. This will launch a development server at <http://localhost:3000/>.
+4. Open the project in your preferred code editor and start exploring the codebase.
+5. If you want to build the project for production, run `npm run build` or `yarn build`. This will create a production-ready build of the project in the `build` directory.
+6. If you want to test the project, run `npm test` or `yarn test`. This will run the tests for the project.
+7. If you want to eject the create-react-app configuration, run `npm run eject` or `yarn eject`. This will remove the create-react-app configuration and allow you to customize the project further.
 
-### Code Splitting
+That's it! You should now be able to start working on the project. Good luck!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Generated with ❤️ by OlgaCodes.
